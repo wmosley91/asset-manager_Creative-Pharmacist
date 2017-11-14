@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(https://creativepharmacist.com/img/bg.gif);
+}
+
+header {
+    width: 40%;
+    left: 30%;
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: #333333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+
+h1 {
+    
+}
+
+h2 {
+    background-color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 32px;
+}
+
+p {
+    text-align: center;
+    margin-top: 0;
+    background-color: #8CC542;
+}
+
+.filterDiv {
+    width: 40%;
+    float: left;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: #333333;
+}
+
+#filterItems select, #filterUsers select{
+    float: right;
+    margin-right: 10%;
+    width: 40%;
+}
+
+ span {
+    margin-left: 20%;
+    font-weight: bold;
+}
+
+.buttonDiv {
+    width: 10%;
+    float: left;
+    text-align: center;
+    padding-top: 65px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.spacingLeft {
+    margin-left: 5%;
+}
+
+.spacingRight {
+    margin-left: 10%;
+}
+
+.wrapper {
+    margin-top: 5%;
+}
+
+.bottomP {
+    margin-bottom: 0;
+    margin-top: 10%;
+}
+
+.fieldP {
+    text-align: right;
+    background-color: #333333;
+}
+
+.padlessP {
+    margin-bottom: 0;
+}
+
+#fakeHead {
+    font-size: 40px;
+    border-style: none;
+    background-color: #8CC542;
+    color: white;
+    border-radius: 5px;
+}
+
+.selectBgs, .selectBs option {
+    background-color: #333333;
+    color: white;
+}
+
+.buttons {
+    color: white;
+    background-color: #8CC542;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#removedSerialsDiv {
+    margin-bottom: 100px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+}
+
+footer a {
+    font-size: 20px;
+}
+
+footer a, footer a:link, footer a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover, footer a:active {
+    color: #8CC542;
+    text-decoration: none;
+}
+
+select {
+    overflow-y: auto;
+}

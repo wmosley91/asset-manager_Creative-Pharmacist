@@ -1,0 +1,176 @@
+body {
+	background: url(https://creativepharmacist.com/img/bg.gif);
+	margin: 0;
+}
+
+nav {
+	font-size: 20px;
+	max-width: 100%;
+	width: 100%;
+}
+
+table {
+	width: 80%;
+	left: 10%;
+	position: relative;
+	border-style: solid;
+	color: white;
+	border-color: black;
+	margin-top: 20px;
+}
+
+td {
+	background-color: #333333;
+}
+
+.resized {
+	width: 144px;
+	height: 90px;
+}
+
+button {
+	background-color: #8CC542;
+	border-style: none;
+	border-radius: 5px;
+	width: 24%;
+	left: 2%;
+	position: relative;
+}
+
+.tktbtn {
+	background-color: black;
+	color: white;
+	border-style: none;
+	border-radius: 5px;
+	width: 100%;
+}
+
+header {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #333333;
+	border-bottom: 5px solid black;
+	border-left: 5px solid black;
+	border-right: 5px solid black;
+	max-width: 100%;
+	width: 100%;
+	position: relative;
+	margin-left: 0;
+}
+
+.colorShift {
+	background-color: #333333;
+}
+
+button:focus {
+	outline: 0;
+}
+
+td button {
+	background-color: black;
+	border-style: none;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.ticketform {
+	background-color: black;
+	width: 20%;
+	left: 70%;
+	position: relative;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+textarea {
+	resize: none;
+	text-align: left;
+	width: 100%;
+}
+
+.ticketbtn {
+	width: 100%;
+	background-color: #8CC542;
+	color: white;
+	border-radius: 0px 0px 5px 5px;
+        left: 0%;
+}
+
+.ticketp {
+	width: 100%;
+	background-color: #333333;
+	color: white;
+	border-radius: 5px 5px 0px 0px;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+#searchAssets {
+	background-color: #333333;
+	border-style: solid;
+	border-top-style: none;
+	border-color: black;
+	border-width: 2px;
+	color: white;
+	max-width: 80%;
+	width: auto;
+	left: 10%;
+	position: relative;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+
+option {
+	color: black;
+}
+
+#filterAssetsButton {
+	text-decoration: none;
+	cursor: default;
+	background-color: #8CC542;
+	color: white;
+	border-radius: 5px;
+	padding: 2px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+}
+
+footer a {
+    font-size: 20px;
+}
+
+footer a, footer a:link, footer a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover, footer a:active {
+    color: #8CC542;
+    text-decoration: none;
+}
+
+.baseColor {
+    color: white;
+}
+
+.warningColor {
+    color: yellow;
+}
+
+.dangerColor {
+    color: red;
+}
+
+#itemMasterButton, #userMasterButton {
+    background-color: black;
+}
+
+.basic {
+    background-color: #8CC542;
+}
